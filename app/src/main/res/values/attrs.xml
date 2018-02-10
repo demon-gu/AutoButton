@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoButton">
+        <attr name="textOn" format="string"/>
+        <attr name="textOff" format="string"/>
+        <attr name="textSize_ab" format="dimension"/>
+        <attr name="bg_unselected_bitmap" format="reference"/>
+        <attr name="bg_selected_bitmap" format="reference"/>
+        <attr name="bg_width" format="dimension"/>
+        <attr name="bg_height" format="dimension"/>
+        <attr name="btn_bitmap" format="reference"/>
+        <attr name="bgn_width" format="dimension"/>
+        <attr name="bgn_height" format="dimension"/>
+        <attr name="isSelected" format="boolean"/>
+    </declare-styleable>
+</resources>

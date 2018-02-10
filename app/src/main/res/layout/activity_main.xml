@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:gk="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent">
+
+    <com.autobutton.autobuttondemo.AutoButton
+        android:id="@+id/autoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        gk:bg_selected_bitmap="@drawable/selected_button_bg"
+        gk:bg_unselected_bitmap="@drawable/unselected_button_bg"
+        gk:btn_bitmap="@drawable/selected_bg"
+        gk:isSelected="false"
+        gk:bg_width="50dp"
+        gk:bg_height="30dp"
+        gk:bgn_width="30dp"
+        gk:bgn_height="30dp"
+        gk:textSize_ab="10sp"
+        gk:textOn=""
+        gk:textOff=""/>
+</LinearLayout>
