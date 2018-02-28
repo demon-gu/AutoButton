@@ -79,7 +79,7 @@ public class AutoButton extends View implements View.OnTouchListener {
         textOn = a.getString(R.styleable.AutoButton_textOn);
         textOff = a.getString(R.styleable.AutoButton_textOff);
         textSize = a.getDimension(R.styleable.AutoButton_textSize_ab, 35);
-        a.recycle();
+
         bgUnSelectedBitmap = ((BitmapDrawable) bg_UnSelected_Drawable).getBitmap();
         bgSelectedBitmap = ((BitmapDrawable) bg_Selected_Drawable).getBitmap();
         btnBitmap = ((BitmapDrawable) mCurrent1).getBitmap();
@@ -93,6 +93,7 @@ public class AutoButton extends View implements View.OnTouchListener {
         btnBitmap = zoomImg(btnBitmap, newBgnWidth, newBgnHeight);
 
         bgBitmap = mCurrent ? bgSelectedBitmap : bgUnSelectedBitmap;
+        a.recycle();
     }
 
     private void initView() {
